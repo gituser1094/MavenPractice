@@ -20,7 +20,7 @@ public class Base {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.get(Utility.readDataFrompropertyfile("url"));
-		Reporter.log("lanching browser", true);
+		Reporter.log("launching browser", true);
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 		Reporter.log("waiting", true);
 		

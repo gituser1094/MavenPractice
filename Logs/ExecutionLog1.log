@@ -1,0 +1,46 @@
+2024-12-22 08:39:37,154 [main] INFO MavenPractice - opening application
+2024-12-22 08:39:48,664 [main] INFO MavenPractice - click on gender b
+2024-12-22 08:39:58,239 [main] INFO MavenPractice - click on next b
+2024-12-22 08:40:07,487 [main] INFO MavenPractice - handle age
+2024-12-22 08:40:07,899 [main] INFO MavenPractice - click on next button
+2024-12-22 08:40:13,259 [main] INFO MavenPractice - click on enterpin b
+2024-12-22 08:40:13,597 [main] INFO MavenPractice - click on entermob
+2024-12-22 08:40:13,903 [main] INFO MavenPractice - click on continue b
+2024-12-22 08:40:18,665 [main] INFO MavenPractice - validate result
+2024-12-22 08:40:18,729 [main] INFO MavenPractice - closing application
+2024-12-22 08:58:56,264 [main] INFO MavenPractice - opening application
+2024-12-22 08:59:02,560 [main] INFO MavenPractice - click on gender b
+2024-12-22 08:59:12,676 [main] INFO MavenPractice - click on next b
+2024-12-22 08:59:23,275 [main] INFO MavenPractice - handle age
+2024-12-22 08:59:23,532 [main] INFO MavenPractice - click on next button
+2024-12-22 08:59:24,542 [main] WARN MavenPractice - enter valid pincode
+2024-12-22 08:59:25,651 [main] INFO MavenPractice - click on enterpin b
+2024-12-22 08:59:25,653 [main] WARN MavenPractice - enter valid mobno
+2024-12-22 08:59:25,943 [main] INFO MavenPractice - click on entermob
+2024-12-22 08:59:26,267 [main] INFO MavenPractice - click on continue b
+2024-12-22 08:59:29,616 [main] INFO MavenPractice - validate result
+2024-12-22 08:59:29,630 [main] INFO MavenPractice - closing application
+2024-12-22 09:35:25,816 [main] INFO MavenPractice - opening application
+2024-12-22 09:35:31,471 [main] INFO MavenPractice - click on gender b
+2024-12-22 09:35:40,194 [main] INFO MavenPractice - click on next b
+2024-12-22 09:35:48,480 [main] INFO MavenPractice - handle age
+2024-12-22 09:35:48,665 [main] INFO MavenPractice - click on next button
+2024-12-22 09:35:49,673 [main] WARN MavenPractice - enter valid pincode
+2024-12-22 09:35:50,785 [main] INFO MavenPractice - click on enterpin b
+2024-12-22 09:35:50,785 [main] WARN MavenPractice - enter valid mobno
+2024-12-22 09:35:51,228 [main] INFO MavenPractice - click on entermob
+2024-12-22 09:35:51,490 [main] INFO MavenPractice - click on continue b
+2024-12-22 09:35:54,703 [main] INFO MavenPractice - validate result
+2024-12-22 09:35:54,717 [main] INFO MavenPractice - closing application
+2024-12-22 09:50:00,507 [main] INFO MavenPractice - opening application
+2024-12-22 09:50:08,690 [main] INFO MavenPractice - click on gender b
+2024-12-22 09:50:10,115 [main] INFO MavenPractice - click on next b
+2024-12-22 09:50:28,747 [main] INFO MavenPractice - handle age
+2024-12-22 09:50:28,933 [main] INFO MavenPractice - click on next button
+2024-12-22 09:50:29,947 [main] WARN MavenPractice - enter valid pincode
+2024-12-22 09:50:30,676 [main] INFO MavenPractice - click on enterpin b
+2024-12-22 09:50:30,678 [main] WARN MavenPractice - enter valid mobno
+2024-12-22 09:50:31,087 [main] INFO MavenPractice - click on entermob
+2024-12-22 09:50:31,397 [main] INFO MavenPractice - click on continue b
+2024-12-22 09:50:35,076 [main] INFO MavenPractice - validate result
+2024-12-22 09:50:35,105 [main] INFO MavenPractice - closing application

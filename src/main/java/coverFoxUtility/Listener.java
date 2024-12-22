@@ -19,20 +19,20 @@ public class Listener extends Base implements ITestListener{
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
-		Reporter.log("TC"+result.getName()+"passed", true);
+		Reporter.log("TC "+result.getName()+"passed", true);
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		try {
-			Reporter.log("", true);
+			Reporter.log("Taking Screenshot", true);
 			Utility.takeScreenshot(driver,result.getName());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Reporter.log(null, false);
+		
 		
 	}
 

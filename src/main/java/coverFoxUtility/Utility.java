@@ -19,7 +19,7 @@ public class Utility {
 		File source = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		String timestamp = new SimpleDateFormat("yyMMddHHmmss").format(new Date());
 		
-		File dest=new File("C:\\Users\\Shree\\eclipse-workspace\\Automation_selenium\\screenshots"+filename+timestamp+".png");
+		File dest=new File("C:\\Users\\Shree\\eclipse-workspace\\MavenPractice\\Screenshots\\"+filename+timestamp+".png");
 		FileHandler.copy(source, dest);
 	}
 		
@@ -31,7 +31,7 @@ public class Utility {
 		
 		public static String readDataFrompropertyfile(String Key) throws IOException {
 			Properties prop=new Properties();
-			FileInputStream myfile=new FileInputStream("C:\\Users\\Shree\\eclipse-workspace\\Automation_selenium\\config.properties");
+			FileInputStream myfile=new FileInputStream("C:\\Users\\Shree\\eclipse-workspace\\Automation_selenium\\baseconfig.properties");
 			prop.load(myfile);
 			String value=prop.getProperty(Key);
 			return value;

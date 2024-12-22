@@ -18,7 +18,7 @@ public  ResultPage(WebDriver driver)
 	PageFactory.initElements(driver, this);
 }
 public int getCountFromText() {
-	Reporter.log("getting policy cout from text display", true);
+	Reporter.log("getting policy count from text display", true);
 	String resultInstring = result.getText().substring(0, 2);
 	 int countFromText = Integer.parseInt(resultInstring);
 	 return countFromText;
@@ -37,7 +37,7 @@ public int getcountFromBanners() {
 		 System.out.println("correct matching");
 	 }else {
 		 System.out.println("not matching");
-	 }
 	 }*/
-	}
+	 }
+	
 

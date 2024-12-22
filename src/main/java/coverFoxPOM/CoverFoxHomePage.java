@@ -12,7 +12,7 @@ public class CoverFoxHomePage {
 	//methods
 	//WebElwment gender=driver.findelement(By.xpath)
 
-	@FindBy(xpath = "//div[text()='Male']") private WebElement gender;
+	@FindBy(xpath = "//div[text()='Female']") private WebElement gender;
 	public CoverFoxHomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}

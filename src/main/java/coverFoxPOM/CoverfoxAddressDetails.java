@@ -15,18 +15,16 @@ public class CoverfoxAddressDetails {
 		PageFactory.initElements(driver, this);
 		}
 	public void sendpincode(String pin) {
-		Reporter.log("enter pin", true);
-	//	pincode.sendKeys("411046");
+		Reporter.log("enterring pin", true);
 		pincode.sendKeys(pin);
 		
 	}
 	public void sendmobileno(String mobNo) {
-		Reporter.log("entermobile", true);
-		//mobileNo.sendKeys("9999999999");
+		Reporter.log("enterring mobile", true);
 		mobileNo.sendKeys(mobNo);
 	}
 	public void clickOnContinueButton() {
-		Reporter.log("click button", true);
+		Reporter.log("clicking button", true);
 		continueButton.click();
 	}
 
